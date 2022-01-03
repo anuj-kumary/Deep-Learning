@@ -26,3 +26,7 @@ li{
   list-style-type: none;
   padding: 1rem;
 }
+a{
+  text-decoration: none;
+  color: #111;
+}
