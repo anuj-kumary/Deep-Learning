@@ -10,6 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #d9e8e6;
+  overflow: hidden;
 }
 .navbar{
   display: flex;
@@ -36,7 +37,7 @@ a{
 .body{
   width: 100%;
   background: #f3f4f6;
-  height: 100vh;
+  height: 92vh;
 }
 .container{
   padding: 5rem 0;
@@ -46,12 +47,13 @@ a{
   
 }
 .login-icon{
-  color: #f4f4f4;
-  background-color: #3862ec;
-  border-radius: 50%;
+  color: #3862ec;
   padding: .2rem;
-  font-size: 25px;
-  width: 20px;
+  font-size: 2rem;
+}
+.icon{
+  color: #3862ec;
+  font-size: 2rem;
 }
 .title{
   text-align: center;
