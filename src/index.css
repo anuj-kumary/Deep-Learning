@@ -4,8 +4,10 @@
   padding: 0%;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
-  margin: 0;
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,6 +21,7 @@ body {
 }
 .logo{
   padding: 1rem 2rem;
+  font-size: 1.3rem;
 }
 ul{
   display: flex;
@@ -26,6 +29,7 @@ ul{
 li{
   list-style-type: none;
   padding: 1rem;
+  font-size: 1.2rem;
 }
 a{
   text-decoration: none;
@@ -66,6 +70,7 @@ a{
   border-radius: 5px;
   text-align: center;
 }
+
 input{
   display: block;
   width: 100%;
@@ -75,7 +80,7 @@ input{
   padding: 0 1rem;
   border-radius: 5px;
   outline: none;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
@@ -83,8 +88,9 @@ input{
   width: 100%;
   padding: .7rem 0;
   letter-spacing: .5px;
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: 700;
+  margin-top: 2rem;
   background-color:#3862ec ;
   color: #fff;
   border: none;
@@ -99,3 +105,56 @@ input{
 .signup{
   color: #011cff;
 }
+/* 
+Home Page CSS */
+
+.hero{
+  width: 100%;
+  margin: 5rem 0;
+}
+.fluid-container{
+  display: flex;
+  place-items: center;
+}
+.left-side{
+width: 50%;
+}
+.right-side{
+  width: 50%;
+}
+.section-title{
+  font-weight: 400;
+  padding: 1rem 2rem;
+  font-size: 3rem;
+  word-break: break-word;
+  letter-spacing: 1.5px;
+}
+.section-para{
+  font-weight: 300;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+}
+.hero-button{
+  margin:1.5rem 2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #3862ec;
+  color: #f3f4f6;
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 1.2px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.hero-image {
+  width: 60%;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
