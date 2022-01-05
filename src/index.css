@@ -12,7 +12,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #d9e8e6;
-  overflow: hidden;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 .navbar{
   display: flex;
@@ -194,17 +195,30 @@ img{
   }
   .mobile-menu-link{
     background-color: #f3f4f6;
-    display: flex;
-    align-items: center;
+    height: 50vh;
+    justify-content: center;
     flex-direction: column;
-    right: 13rem;
-    height: 100vh;
-    width: 100vw;
+    align-items: center;
     position: relative;
-    justify-content: space-evenly;
-    transition: all 0.3s ease-in-out;
+    right: 6rem;
+  }
+  .fluid-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .right-side{
+    width: 100%;
+  }
+  .left-side{
+    width: 100%;
   }
   li{
+    font-size: 1.5rem;
+  }
+  .section-title{
     font-size: 2rem;
+  }
+  .section-para{
+    font-size:1rem ;
   }
 }
