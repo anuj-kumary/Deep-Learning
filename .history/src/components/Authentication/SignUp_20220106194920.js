@@ -38,19 +38,6 @@ export default function SignUp() {
   return (
     <>
       <div className="body">
-      <ToastContainer
-        position="top-center"
-        autoClose={2000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        className="toast-container"
-        toastClassName="dark-toast"
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-      />
         <div className="container">
           <div className="box">
             <FaRocket className="icon" />

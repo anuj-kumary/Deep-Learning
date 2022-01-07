@@ -1,16 +1,11 @@
 import React from "react";
 import { FaRocket } from "react-icons/fa";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import {
   createUserWithEmailAndPassword,
   onAuthStateChanged,
 } from "firebase/auth";
 import { auth } from "../firebase-config";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
-
 
 export default function SignUp() {
   const [registerEmail, setRegisterEmail] = useState("");
@@ -31,26 +26,12 @@ export default function SignUp() {
       console.log(user);
     } catch (error) {
       console.log(error.message);
-      toast.warn(error.message);
     }
   };
 
   return (
     <>
       <div className="body">
-      <ToastContainer
-        position="top-center"
-        autoClose={2000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        className="toast-container"
-        toastClassName="dark-toast"
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-      />
         <div className="container">
           <div className="box">
             <FaRocket className="icon" />
@@ -77,7 +58,7 @@ export default function SignUp() {
                 Create an account
               </button>
               <p className="title">
-                Already have account ? <Link to="signin" className="signup">Sign In</Link>
+                Already have account ? <span className="signup">Sign In</span>
               </p>
             </div>
           </div>

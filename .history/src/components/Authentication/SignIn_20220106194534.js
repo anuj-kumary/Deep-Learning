@@ -23,25 +23,13 @@ export default function SignIn() {
       navigate("../About");
     } catch (error) {
       toast.warn("Wrong Password or Email");
+      // console.log(error.message);
     }
   };
 
   return (
     <>
       <div className="body">
-      <ToastContainer
-        position="top-center"
-        autoClose={2000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        className="toast-container"
-        toastClassName="dark-toast"
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-      />
         <div className="container">
           <div className="box">
             <AiFillLock className="login-icon" />

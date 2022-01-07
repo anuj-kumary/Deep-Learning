@@ -23,6 +23,7 @@ export default function SignIn() {
       navigate("../About");
     } catch (error) {
       toast.warn("Wrong Password or Email");
+      // console.log(error.message);
     }
   };
 

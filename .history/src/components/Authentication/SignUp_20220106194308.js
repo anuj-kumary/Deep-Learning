@@ -7,10 +7,6 @@ import {
   onAuthStateChanged,
 } from "firebase/auth";
 import { auth } from "../firebase-config";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
-
 
 export default function SignUp() {
   const [registerEmail, setRegisterEmail] = useState("");
@@ -31,26 +27,12 @@ export default function SignUp() {
       console.log(user);
     } catch (error) {
       console.log(error.message);
-      toast.warn(error.message);
     }
   };
 
   return (
     <>
       <div className="body">
-      <ToastContainer
-        position="top-center"
-        autoClose={2000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        className="toast-container"
-        toastClassName="dark-toast"
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-      />
         <div className="container">
           <div className="box">
             <FaRocket className="icon" />

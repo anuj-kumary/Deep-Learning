@@ -23,6 +23,7 @@ export default function SignIn() {
       navigate("../About");
     } catch (error) {
       toast.warn("Wrong Password or Email");
+      // console.log(error.message);
     }
   };
 
@@ -31,7 +32,7 @@ export default function SignIn() {
       <div className="body">
       <ToastContainer
         position="top-center"
-        autoClose={2000}
+        autoClose={3000}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick
