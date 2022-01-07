@@ -1,7 +1,7 @@
 import React from "react";
 import { FaRocket } from "react-icons/fa";
 import { useState } from "react";
-import { Link , useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   createUserWithEmailAndPassword,
   onAuthStateChanged,
@@ -16,7 +16,6 @@ export default function SignUp() {
   const [registerEmail, setRegisterEmail] = useState("");
   const [registerPassword, setRegisterPassword] = useState("");
   const [user, setUser] = useState({});
-  const navigate = useNavigate();
 
   onAuthStateChanged(auth, (currentUser) => {
     setUser(currentUser);
@@ -29,13 +28,10 @@ export default function SignUp() {
         registerEmail,
         registerPassword
       );
-      toast.success("Account created Successful");
-      navigate("../About");
+      console.log(user);
     } catch (error) {
-      let errorMsg = error.message;
-      let result = errorMsg.slice(10)
-      let new_string = result.replace(/[- )(]/g,' ');
-      toast.warn(new_string);
+      console.log(error.message);
+      toast.warn(error.message);
     }
   };
 

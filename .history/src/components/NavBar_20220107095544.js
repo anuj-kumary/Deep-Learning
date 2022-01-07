@@ -22,7 +22,7 @@ export default function NavBar() {
               <Link to="about">About</Link>
             </li>
             <li className="sign-up-btn">
-              <Link to="signin">Log In</Link>
+              <Link to="signin">Sign Up</Link>
             </li>
             <li className="sign-up-btn">
               <Link to="signup">Sign Up</Link>

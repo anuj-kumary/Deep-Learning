@@ -29,13 +29,12 @@ export default function SignUp() {
         registerEmail,
         registerPassword
       );
+      console.log(user);
       toast.success("Account created Successful");
       navigate("../About");
     } catch (error) {
-      let errorMsg = error.message;
-      let result = errorMsg.slice(10)
-      let new_string = result.replace(/[- )(]/g,' ');
-      toast.warn(new_string);
+      console.log(error.message);
+      toast.warn(error.message);
     }
   };
 
