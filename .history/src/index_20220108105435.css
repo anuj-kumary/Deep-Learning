@@ -173,56 +173,9 @@ img{
 
 /* About Page CSS */
 
-.wrapper-flex{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+main{
+  width: 340px;
 }
-.profile-container{
-overflow: hidden;
-box-shadow: 0px 2px 8px 0px #b0bec5;
-background-color: #f4f4f4;
-text-align: center;
-border-radius: 1rem;
-position: relative;
-width: 280px;
-margin-bottom: 1rem;
-margin-left: 1rem;
-}
-.banner-img{
-  background-image: url(https://images.unsplash.com/photo-1582727657635-c771002bdada?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-  position: absolute;
-  height: 10rem;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.profile-img{
-  width: 8rem;
-  clip-path: circle(60px at center);
-  margin-top: 4.5rem;
-}
-.name {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-.description {
-  margin: 1rem 2rem;
-  font-size: 0.9rem;
-}
-footer{
-  margin: 1.5rem 0;
-}
-footer .social-icon{
-  display: flex;
-  justify-content: space-around;
-  font-size: 20px;
-  margin: 0 5%;
-  color: rgba(0, 0, 0, .9);
-}
-
 
 /* Responsive CSS */
 

@@ -213,7 +213,7 @@ margin-left: 1rem;
   font-size: 0.9rem;
 }
 footer{
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 footer .social-icon{
   display: flex;
@@ -222,8 +222,6 @@ footer .social-icon{
   margin: 0 5%;
   color: rgba(0, 0, 0, .9);
 }
-
-
 /* Responsive CSS */
 
 

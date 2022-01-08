@@ -213,17 +213,8 @@ margin-left: 1rem;
   font-size: 0.9rem;
 }
 footer{
-  margin: 1.5rem 0;
+  margin-top: 1rem;
 }
-footer .social-icon{
-  display: flex;
-  justify-content: space-around;
-  font-size: 20px;
-  margin: 0 5%;
-  color: rgba(0, 0, 0, .9);
-}
-
-
 /* Responsive CSS */
 
 

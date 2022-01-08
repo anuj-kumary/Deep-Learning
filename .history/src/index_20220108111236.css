@@ -201,7 +201,7 @@ margin-left: 1rem;
 .profile-img{
   width: 8rem;
   clip-path: circle(60px at center);
-  margin-top: 4.5rem;
+  margin-top: 4.4rem;
 }
 .name {
   font-weight: bold;
@@ -212,18 +212,6 @@ margin-left: 1rem;
   margin: 1rem 2rem;
   font-size: 0.9rem;
 }
-footer{
-  margin: 1.5rem 0;
-}
-footer .social-icon{
-  display: flex;
-  justify-content: space-around;
-  font-size: 20px;
-  margin: 0 5%;
-  color: rgba(0, 0, 0, .9);
-}
-
-
 /* Responsive CSS */
 
 
