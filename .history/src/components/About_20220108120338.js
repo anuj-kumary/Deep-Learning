@@ -5,7 +5,7 @@ import Authors from "./Author";
 export default function About() {
   return (
     <>
-      <h2 className="author-heading">Authors</h2>
+      <h1 className="author-heading">Authors</h1>
       <div class="wrapper-flex">
         {Authors.map((data) => {
           return (

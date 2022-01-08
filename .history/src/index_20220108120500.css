@@ -198,13 +198,12 @@ margin-left: 1rem;
   height: 10rem;
 }
 .name {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .description {
   margin: 1rem 2rem;
-  font-size: 0.8rem;
-  font-weight: 300;
+  font-size: 0.9rem;
 }
 footer{
   margin: 1.5rem 0;

@@ -172,11 +172,7 @@ img{
 }
 
 /* About Page CSS */
-.author-heading{
-  text-align: center;
-  margin: 2rem 0;
-  text-decoration: underline;
-}
+
 .wrapper-flex{
   display: flex;
   flex-wrap: wrap;
@@ -193,18 +189,28 @@ width: 280px;
 margin-bottom: 1rem;
 margin-left: 1rem;
 }
-.profile-img{
-  width: 100%;
+.banner-img{
+  background-image: url(https://images.unsplash.com/photo-1582727657635-c771002bdada?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  position: absolute;
   height: 10rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile-img{
+  width: 8rem;
+  /* clip-path: circle(60px at center); */
+  margin-top: 4.5rem;
 }
 .name {
-  font-size: 1.3rem;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .description {
   margin: 1rem 2rem;
-  font-size: 0.8rem;
-  font-weight: 300;
+  font-size: 0.9rem;
 }
 footer{
   margin: 1.5rem 0;
