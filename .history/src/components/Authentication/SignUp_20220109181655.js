@@ -1,7 +1,7 @@
 import React from "react";
 import { FaRocket } from "react-icons/fa";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link , useNavigate } from "react-router-dom";
 import {
   createUserWithEmailAndPassword,
   onAuthStateChanged,
@@ -81,7 +81,7 @@ export default function SignUp() {
                 Create an account
               </button>
               <p className="title">
-                Already have account ? <span className="signup">Sign In</span>
+                Already have account ? <span to="signin" className="signup">Sign In</span>
               </p>
             </div>
           </div>

@@ -12,6 +12,11 @@ export default function SignIn() {
   const [loginPassword, setLoginPassword] = useState("");
   const navigate = useNavigate();
 
+
+  const goLink = () => {
+    navigate("./signup")
+  }
+
   const login = async () => {
     try {
       const user = await signInWithEmailAndPassword(
@@ -68,7 +73,7 @@ export default function SignIn() {
                 Sign In
               </button>
               <p className="title">
-                Don't have an account ? <span className="signup">Sign Up</span>
+                Don't have an account ? <span onClick={goLink} className="signup">Sign Up</span>
               </p>
             </div>
           </div>

@@ -25,6 +25,10 @@ export default function SignIn() {
       toast.warn("Wrong Password or Email");
     }
 
+    const goLink = () => {
+      navigate("./signup")
+    }
+
   };
 
   return (
@@ -68,7 +72,7 @@ export default function SignIn() {
                 Sign In
               </button>
               <p className="title">
-                Don't have an account ? <span className="signup">Sign Up</span>
+                Don't have an account ? <span className="signup" onClick={goLink}>Sign Up</span>
               </p>
             </div>
           </div>

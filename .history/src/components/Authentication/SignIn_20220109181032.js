@@ -24,7 +24,6 @@ export default function SignIn() {
     } catch (error) {
       toast.warn("Wrong Password or Email");
     }
-
   };
 
   return (

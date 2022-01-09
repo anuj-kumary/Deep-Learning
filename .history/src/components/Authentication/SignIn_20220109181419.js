@@ -68,7 +68,7 @@ export default function SignIn() {
                 Sign In
               </button>
               <p className="title">
-                Don't have an account ? <span className="signup">Sign Up</span>
+                Don't have an account ? <span onClick={goLink} className="signup">Sign Up</span>
               </p>
             </div>
           </div>

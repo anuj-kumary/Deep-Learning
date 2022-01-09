@@ -24,7 +24,6 @@ export default function SignIn() {
     } catch (error) {
       toast.warn("Wrong Password or Email");
     }
-
   };
 
   return (
@@ -68,7 +67,7 @@ export default function SignIn() {
                 Sign In
               </button>
               <p className="title">
-                Don't have an account ? <span className="signup">Sign Up</span>
+                Don't have an account ? <span className="signup" onClick={goLink}>Sign Up</span>
               </p>
             </div>
           </div>

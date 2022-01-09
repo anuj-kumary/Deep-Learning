@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiFillLock } from "react-icons/ai";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase-config";
-import { useNavigate  } from "react-router-dom";
+import { useNavigate , Link } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -24,7 +24,6 @@ export default function SignIn() {
     } catch (error) {
       toast.warn("Wrong Password or Email");
     }
-
   };
 
   return (
@@ -68,7 +67,7 @@ export default function SignIn() {
                 Sign In
               </button>
               <p className="title">
-                Don't have an account ? <span className="signup">Sign Up</span>
+                Don't have an account ? <span Link to="signin"  className="signup">Sign Up</span>
               </p>
             </div>
           </div>
