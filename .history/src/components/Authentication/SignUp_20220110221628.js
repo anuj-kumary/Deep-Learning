@@ -82,7 +82,7 @@ export default function SignUp() {
                 Create an account
               </button>
               <p className="title">
-                Already have account ? <Link to="/signin" className="signup">Sign In</Link>
+                Already have account ? <Link to="signin" className="signup">Sign In</Link>
               </p>
             </div>
           </div>
