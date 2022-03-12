@@ -117,6 +117,7 @@ input{
 }
 .signup{
   color: #011cff;
+  cursor: pointer;
 }
 /* 
 Home Page CSS */
