@@ -9,6 +9,7 @@ import {
 import { Link } from "react-router-dom";
 import { auth } from "../firebase-config";
 import { ToastContainer, toast } from 'react-toastify';
+import isEmail from 'validator/lib/isEmail';
 import 'react-toastify/dist/ReactToastify.css';
 
 
