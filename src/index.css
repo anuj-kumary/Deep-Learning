@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
-*{
+
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -15,32 +18,39 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
-.navbar{
+
+.navbar {
   display: flex;
   background-color: #f3f4f6;
   justify-content: space-between;
 }
-.logo{
+
+.logo {
   padding: 1rem 2rem;
   font-size: 1.3rem;
 }
-.menu-links{
+
+.menu-links {
   display: flex;
   transition: all 0.3s ease-in-out;
 }
-li{
+
+li {
   list-style-type: none;
   padding: 1rem;
   font-size: 1.2rem;
 }
-a{
+
+a {
   text-decoration: none;
   color: #111;
 }
-.sign-up-btn{
+
+.sign-up-btn {
   text-decoration: underline;
 }
-.hamburger{
+
+.hamburger {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -51,32 +61,37 @@ a{
 
 
 /* SignIn Component CSS */
-.body{
+.body {
   width: 100%;
   background: #f3f4f6;
   height: 92vh;
 }
-.container{
+
+.container {
   padding: 5rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
 }
-.login-icon{
+
+.login-icon {
   color: #3862ec;
   padding: .2rem;
   font-size: 2rem;
 }
-.icon{
+
+.icon {
   color: #3862ec;
   font-size: 2rem;
 }
-.title{
+
+.title {
   text-align: center;
   margin: 1rem 0;
 }
-.box{
+
+.box {
   width: auto;
   background-color: #fefefe;
   padding: 2rem;
@@ -84,7 +99,7 @@ a{
   text-align: center;
 }
 
-input{
+input {
   display: block;
   width: 100%;
   height: 40px;
@@ -97,60 +112,74 @@ input{
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
-.sign-in-btn{
+
+.sign-in-btn {
   width: 100%;
   padding: .7rem 0;
   letter-spacing: .5px;
   font-size: 1rem;
   font-weight: 700;
   margin-top: 2rem;
-  background-color:#3862ec ;
+  background-color: #3862ec;
   color: #fff;
   border: none;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
 }
-.sign-in-btn:hover{
+
+.sign-in-btn:hover {
   color: #3862ec;
   background-color: #fff;
   border: 1px solid #3862ec;
 }
-.signup{
+
+.signup {
   color: #011cff;
   cursor: pointer;
 }
+
 /* 
 Home Page CSS */
 
-.hero{
+.hero {
   width: 100%;
   margin: 5rem 0;
 }
-.fluid-container{
+
+.fluid-container {
   display: flex;
   place-items: center;
 }
-.left-side{
-width: 50%;
+
+.hide-side {
+  display: none;
 }
-.right-side{
+
+.left-side {
   width: 50%;
 }
-.section-title{
+
+.right-side {
+  width: 50%;
+}
+
+.section-title {
   font-weight: 400;
   padding: 1rem 2rem;
   font-size: 3rem;
   word-break: break-word;
   letter-spacing: 1.5px;
 }
-.section-para{
+
+.section-para {
   font-weight: 300;
   padding: 1rem 2rem;
   font-size: 1.5rem;
   letter-spacing: 1.5px;
 }
-.hero-button{
-  margin:1.5rem 2rem;
+
+.hero-button {
+  margin: 1.5rem 2rem;
   padding: 1rem 1.5rem;
   border-radius: 5px;
   border: none;
@@ -159,11 +188,14 @@ width: 50%;
   font-weight: 400;
   font-size: 1.5rem;
   letter-spacing: 1.2px;
+  cursor: pointer;
 }
-img{
-    width: 100%;
-    height: auto;
+
+img {
+  width: 100%;
+  height: auto;
 }
+
 .hero-image {
   width: 60%;
 }
@@ -173,31 +205,35 @@ img{
 }
 
 /* About Page CSS */
-.author-heading{
+.author-heading {
   text-align: center;
   margin: 2rem 0;
   text-decoration: underline;
 }
-.wrapper-flex{
+
+.wrapper-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.profile-container{
-overflow: hidden;
-box-shadow: 0px 2px 8px 0px #b0bec5;
-background-color: #f4f4f4;
-text-align: center;
-border-radius: 1rem;
-position: relative;
-width: 280px;
-margin-bottom: 1rem;
-margin-left: 1rem;
+
+.profile-container {
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px #b0bec5;
+  background-color: #f4f4f4;
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+  width: 280px;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
 }
-.profile-img{
+
+.profile-img {
   width: 100%;
   height: 10rem;
 }
+
 .name {
   font-size: 1.3rem;
 }
@@ -207,10 +243,12 @@ margin-left: 1rem;
   font-size: 0.8rem;
   font-weight: 300;
 }
-footer{
+
+footer {
   margin: 1.5rem 0;
 }
-footer .social-icon{
+
+footer .social-icon {
   display: flex;
   justify-content: space-around;
   font-size: 20px;
@@ -223,7 +261,7 @@ footer .social-icon{
 
 
 @media only screen and (max-width: 600px) {
-  .hamburger{
+  .hamburger {
     display: block;
     cursor: pointer;
     display: flex;
@@ -236,10 +274,12 @@ footer .social-icon{
     font-size: 1.5rem;
     transition: all 0.3s ease-in-out;
   }
-  .menu-links{
+
+  .menu-links {
     display: none;
   }
-  .mobile-menu-link{
+
+  .mobile-menu-link {
     background-color: #f3f4f6;
     height: 50vh;
     justify-content: center;
@@ -248,23 +288,29 @@ footer .social-icon{
     position: relative;
     right: 6rem;
   }
-  .fluid-container{
+
+  .fluid-container {
     display: flex;
     flex-direction: column;
   }
-  .right-side{
+
+  .right-side {
     width: 100%;
   }
-  .left-side{
+
+  .left-side {
     width: 100%;
   }
-  li{
+
+  li {
     font-size: 1.5rem;
   }
-  .section-title{
+
+  .section-title {
     font-size: 2rem;
   }
-  .section-para{
-    font-size:1rem ;
+
+  .section-para {
+    font-size: 1rem;
   }
 }
