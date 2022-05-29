@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { AiFillLock } from 'react-icons/ai';
-import { signInWithEmailAndPassword } from 'firebase/auth';
 import { useNavigate, Link } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toastify';
-import isEmail from 'validator/lib/isEmail';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { signinServices } from '../../service';
 import { db } from '../../firebase-config';

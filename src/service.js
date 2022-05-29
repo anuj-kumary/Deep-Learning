@@ -3,8 +3,7 @@ import {
   createUserWithEmailAndPassword,
   signOut,
 } from 'firebase/auth';
-import { auth, db } from './firebase-config';
-import { addDoc, collection } from 'firebase/firestore';
+import { auth } from './firebase-config';
 
 export const signinServices = async (email, password) => {
   try {
